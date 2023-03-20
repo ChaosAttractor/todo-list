@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: local("Roboto"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+}
+
+:root {
+  --main-bg-color: #F7F7F7;
+  --main-todo-color: #FFFFFF;
+  --main-btn-color: #888888;
+  --active-btn-color: #545454;
+  --green-icon-color: #00a070;
+  --red-icon-color: #cd0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
